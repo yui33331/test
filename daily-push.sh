@@ -18,4 +18,4 @@ git add .
 git commit -m "Daily automatic update: $DATE"
 
 # git-push.shを使用してプッシュ
-"git-push.sh"
+"./git-push.sh"

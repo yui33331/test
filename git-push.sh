@@ -1,5 +1,6 @@
 #!/bin/bash
 # Git push helper script using GitHub token from .env
+cd /home/sk-alpha/projects/test/
 
 # Load environment variables
 source .env

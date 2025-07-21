@@ -1,5 +1,6 @@
 #!/bin/bash
 # Daily automatic git push script
+cd /home/sk-alpha/projects/test
 
 # 現在の日付を取得
 DATE=$(date +"%Y-%m-%d %H:%M:%S")

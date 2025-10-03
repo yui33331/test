@@ -13,7 +13,7 @@ source "$SCRIPT_DIR/.env"
 
 cd "$TEST_REPO_ROOT"
 
-PUSH_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.gi">
+PUSH_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
 
 git push "$PUSH_URL" HEAD:main --force
 echo "Push completed successfully!"
